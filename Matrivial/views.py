@@ -7,5 +7,7 @@ import numpy as np;
 from sympy import *
 
 def index(request):
-   A = Matrix([[1,2],[3,4]])
-   return HttpResponse(A @ A)
+    A = Matrix([[1,2],[3,4]])
+    return HttpResponse(A @ A)
+
+
